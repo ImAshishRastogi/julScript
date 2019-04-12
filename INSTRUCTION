@@ -4,5 +4,5 @@
  *   - create prompts.txt in julius/model/
  *   - create MyDict.txt in julius/lexicon/
  *   - generate wav files of samples of prompts.txt in julius/train/wav/
- *   - run download_tools.php to download all required tools
+ *   - Run download_tools.php to download all required tools
  *   - Run app.php

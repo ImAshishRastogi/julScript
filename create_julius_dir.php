@@ -17,10 +17,7 @@ echo "Directories successfully created."."\n";
 
 shell_exec("mv INSTRUCTION julius/model/");
 shell_exec("mv download_tools.php julius/model/");
-shell_exec("mv data_prep.php julius/model/");
-shell_exec("mv step6.php julius/model/");
-shell_exec("mv step6.php julius/model/");
-shell_exec("mv phones.php julius/model/");
+shell_exec("mv app.php julius/model/");
 
 echo "scripts are moved to julius/model/ directry"."\n";
 echo "Read INSTRUCTION in julius/model/ to proceed further"."\n";
