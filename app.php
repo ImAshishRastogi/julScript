@@ -6,11 +6,8 @@
  *   - create prompts.txt in julius/model/
  *   - create MyDict.txt in julius/lexicon/
  *   - generate wav files of samples of prompts.txt in julius/train/wav/
- *   - run download_tools.php to download all required tools
 */
  
- //$tools_cmd = "php download_tools.php";
- //shell_exec($tools_cmd);
  
  
  echo "STEP1 START..."."\n";
@@ -141,8 +138,8 @@
  
  // I have use 'sip' instead of 'sample' to save file name as
  
- shell_exec("sed 's/sample/sip/g' codetrain.scp > codetrain_new.scp");
- shell_exec("mv codetrain_new.scp codetrain.scp");
+ //shell_exec("sed 's/sample/sip/g' codetrain.scp > codetrain_new.scp");
+ //shell_exec("mv codetrain_new.scp codetrain.scp");
  
 /**
  *   - Config file : The HCopy command performs the conversion from wav format to MFCC.  
@@ -170,8 +167,8 @@
  
  // I have use 'sip' instead of 'sample' to save file name as
  
- shell_exec("sed 's/sample/sip/g' train.scp > train_new.scp");
- shell_exec("mv train_new.scp train.scp");
+ //shell_exec("sed 's/sample/sip/g' train.scp > train_new.scp");
+ //shell_exec("mv train_new.scp train.scp");
  
 /**  - The next step is to create a new folder called hmm0. 
  *   - Then create a new version of proto in the hmm0 folder - using the HTK  HCompV tool as follows:
