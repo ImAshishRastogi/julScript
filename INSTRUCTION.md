@@ -54,9 +54,11 @@ accordingly in julius/train/wav/.
 ```
 text to speech link : [http://www.fromtexttospeech.com/](http://www.fromtexttospeech.com/) \
 mp3 to wav link :   [https://audio.online-convert.com/convert-to-wav](https://audio.online-convert.com/convert-to-wav) \
-bit resolution: 16Bit \
-sampling rate: 16000 Hz \
-audio channels: mono \
+```
+bit resolution: 16Bit 
+sampling rate: 16000 Hz 
+audio channels: mono 
+```
 Ref :  [http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/data-prep/step-3](http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/data-prep/step-3)
 
 ## Run app.php
