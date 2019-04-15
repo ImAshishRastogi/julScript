@@ -1,8 +1,8 @@
-/*
+/**
  *   - create sample.grammar in julius/model/
  *   - create sample.voca in julius/model/
  *   - create prompts.txt in julius/model/
- *   - create MyDict.txt in julius/lexicon/
+ *   - create MyDict.txt in julius/lexicon/ with help of VoxForgeDict.txt
  *   - generate wav files of samples of prompts.txt in julius/train/wav/
- *   - Run download_tools.php to download all required tools
  *   - Run app.php
+*/
