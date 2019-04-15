@@ -81,7 +81,7 @@ echo "Downloaded and moved to julius/model/".PHP_EOL;
 
 echo "All required tools are downloaded and moved to corresponding directories successfully!!".PHP_EOL;
 
-shell_exec("mv INSTRUCTION julius/model/");
+shell_exec("mv INSTRUCTION.md julius/model/");
 shell_exec("mv app.php julius/model/");
 
 echo "app.js script is moved to julius/model/ directry"."\n";
