@@ -60,4 +60,17 @@ audio channels: mono
 ```
 >Ref :  [http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/data-prep/step-3](http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/data-prep/step-3)
 
-## 6. Run app.php
+## 6. modify train.scp and codetrain.scp 
+codetrain.scp: containing a list of each source audio file(.wav) and the name of the MFCC file it will be converted.
+```
+Format:
+../train/wav/sample1.wav ../train/mfcc/sample1.mfc
+```
+
+train.scp: containing a list of each MFCC file.
+```
+Format:
+../train/mfcc/sample1.mfc
+```
+
+## 7. Run app.php
