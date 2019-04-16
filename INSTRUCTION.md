@@ -1,11 +1,7 @@
  # STEPS
  
 ## 1. create sample.grammar in julius/model/
-<<<<<<< HEAD
-.grammar file: The rules governing the allowed words are defined in the .grammar file using a modified
-=======
 >.grammar file: The rules governing the allowed words are defined in the .grammar file using a modified
->>>>>>> 1ecde0f67068f01851284b882420a0e66123de2f
 BNF format.  A .grammar specification in Julius uses a set of derivation rules, written as: 
 
 ```
@@ -19,11 +15,7 @@ Example : [sample.grammar](https://raw.githubusercontent.com/VoxForge/develop/ma
 How to create :  [http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/data-prep/step-1](http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/data-prep/step-1) 
 
 ## 2. create sample.voca in julius/model/
-<<<<<<< HEAD
-.voca file: The ".voca" file contains Word Definitions for each Word Category defined in the .grammar file. 
-=======
 >.voca file: The ".voca" file contains Word Definitions for each Word Category defined in the .grammar file. 
->>>>>>> 1ecde0f67068f01851284b882420a0e66123de2f
 Each Word Category must be defined with "%" preceding it.  Word Definitions in each Word Category are
 then defined one per line. The first column is the string which will be output when recognized, and
 the rest is the pronunciation.  Spaces and/or tabs can act field separators.
@@ -38,11 +30,7 @@ How to create :  [http://www.voxforge.org/home/dev/acousticmodels/linux/create/h
 (NOTE : To generate pronunciation of each word go to this link : [http://www.speech.cs.cmu.edu/tools/lextool.html](http://www.speech.cs.cmu.edu/tools/lextool.html) )
         
 ## 3. create prompts.txt in julius/model/
-<<<<<<< HEAD
-create alternative sentences for words to be train.
-=======
 >create alternative sentences for words to be train.
->>>>>>> 1ecde0f67068f01851284b882420a0e66123de2f
 ```
 Format :
 */sample[NUMBER]   [SENTENCE...]
@@ -52,11 +40,7 @@ Format :
 How to create : [http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/data-prep/step-2](http://www.voxforge.org/home/dev/acousticmodels/linux/create/htkjulius/tutorial/data-prep/step-2) 
 
 ## 4. create MyDict.txt in julius/lexicon/ with help of [VoxForgeDict.txt](https://raw.githubusercontent.com/VoxForge/develop/master/lexicon/VoxForgeDict.txt)
-<<<<<<< HEAD
-words to be train must be in present in MyDict.txt in lexicographical order.
-=======
 >words to be train must be in present in MyDict.txt in lexicographical order.
->>>>>>> 1ecde0f67068f01851284b882420a0e66123de2f
 ```
 Format :
 [Word Definition]   [[Word]]    [pronunciation]
@@ -90,8 +74,4 @@ Format:
 ```
 Example : [train.scp](https://raw.githubusercontent.com/VoxForge/develop/master/tutorial/train.scp) 
 
-<<<<<<< HEAD
-## 6. Run app.php
-=======
 ## 7. Run app.php
->>>>>>> 1ecde0f67068f01851284b882420a0e66123de2f
