@@ -66,7 +66,7 @@ audio channels: mono
 Format:
 ../train/wav/sample1.wav ../train/mfcc/sample1.mfc
 ```
-Example : [codetrain.scp](https://raw.githubusercontent.com/VoxForge/develop/master/tutorial/codetrain.scp) \
+Example : [codetrain.scp](https://raw.githubusercontent.com/VoxForge/develop/master/tutorial/codetrain.scp) 
 - train.scp: containing a list of each MFCC file.
 ```
 Format:
