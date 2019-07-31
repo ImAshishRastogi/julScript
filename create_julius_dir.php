@@ -38,7 +38,7 @@ echo "Downloaded and moved to julius/bin/".PHP_EOL;
 // julius/lexicon directory file
 
 echo "Downloading lexicon tools...".PHP_EOL;
-shell_exec("wget -c https://github.com/VoxForge/develop/blob/master/lexicon/VoxForgeDict.txt");
+shell_exec("wget -c https://raw.githubusercontent.com/VoxForge/develop/master/lexicon/VoxForgeDict.txt");
 shell_exec("mv VoxForgeDict.txt julius/lexicon/");
 echo "Downloaded and moved to julius/lexicon/".PHP_EOL;
 
