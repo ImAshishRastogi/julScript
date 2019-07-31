@@ -57,6 +57,9 @@ shell_exec("wget -c https://raw.githubusercontent.com/VoxForge/develop/master/tu
 shell_exec("wget -c https://raw.githubusercontent.com/VoxForge/develop/master/tutorial/mktri.led");
 shell_exec("wget -c https://raw.githubusercontent.com/VoxForge/develop/master/tutorial/maketriphones.ded");
 shell_exec("wget -c https://raw.githubusercontent.com/VoxForge/develop/master/tutorial/tree1.hed");
+shell_exec("wget -c https://github.com/ImAshishRastogi/julScript/blob/master/app.php");
+shell_exec("wget -c https://github.com/ImAshishRastogi/julScript/blob/master/INSTRUCTION.md");
+
 shell_exec("mv global.ded julius/model/");
 shell_exec("mv mkphones0.led julius/model/");
 shell_exec("mv mkphones1.led julius/model/");
@@ -69,6 +72,8 @@ shell_exec("mv sil.hed julius/model/");
 shell_exec("mv mktri.led julius/model/");
 shell_exec("mv maketriphones.ded julius/model/");
 shell_exec("mv tree1.hed julius/model/");
+shell_exec("mv app.php julius/model/");
+shell_exec("mv INSTRUCTION.md julius/model/");
 echo "Downloaded and moved to julius/model/".PHP_EOL;
 
 
@@ -80,12 +85,9 @@ echo "Downloaded and moved to julius/model/".PHP_EOL;
 
 
 echo "All required tools are downloaded and moved to corresponding directories successfully!!".PHP_EOL;
+echo "NOW READ INSTRUCTION.md in julius/model/ directory"
 
-shell_exec("mv INSTRUCTION.md julius/model/");
-shell_exec("mv app.php julius/model/");
 
-echo "app.js script is moved to julius/model/ directry"."\n";
-echo "First Read INSTRUCTION in julius/model/ to proceed further"."\n";
 
 //
 ?>
