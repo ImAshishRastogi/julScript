@@ -78,6 +78,7 @@ Example : [train.scp](https://raw.githubusercontent.com/VoxForge/develop/master/
 
 --------------------------------------------------------------------------------------------------------------
 ## File Structure
+
 julius/
 |-- bin
 |   |-- fixfulllist.jl
@@ -123,5 +124,3 @@ julius/
 `-- train
     |-- mfcc
     `-- wav
-
-22 directories, 22 files
