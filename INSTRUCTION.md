@@ -73,5 +73,17 @@ Format:
 ../train/mfcc/sample1.mfc
 ```
 Example : [train.scp](https://raw.githubusercontent.com/VoxForge/develop/master/tutorial/train.scp) 
+## 7. modify sample.jconf in julius/
+- sample.jconf: 
+```
+-    -dfa sample.dfa     # finite state automaton grammar file
+-    -v sample.dict      # pronunciation dictionary
+-    -h hmm15/hmmdefs    # acoustic HMM (ascii or Julius binary)
+-    -hlist tiedlist     # HMMList to map logical phone to physical
++    -dfa model/sample.dfa     # finite state automaton grammar file
++    -v model/sample.dict      # pronunciation dictionary
++    -h model/hmm15/hmmdefs    # acoustic HMM (ascii or Julius binary)
++    -hlist model/tiedlist     # HMMList to map logical phone to physical
+```
 
-## 7. Run app.php
+## 8. Run app.php
