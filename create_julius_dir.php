@@ -80,8 +80,8 @@ echo "Downloaded and moved to julius/model/".PHP_EOL;
 
 echo "Downloading sample.conf".PHP_EOL;
 shell_exec("wget -c https://raw.githubusercontent.com/VoxForge/develop/master/tutorial/sample.jconf");
-shell_exec("mv sample.jconf julius/model/");
-echo "Downloaded and moved to julius/model/".PHP_EOL;
+shell_exec("mv sample.jconf julius/");
+echo "Downloaded and moved to julius/".PHP_EOL;
 
 
 echo "All required tools are downloaded and moved to corresponding directories successfully!!".PHP_EOL;
